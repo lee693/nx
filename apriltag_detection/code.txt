@@ -1,0 +1,8 @@
+roslaunch apriltag_detection camera.launch 
+rqt_image_view
+roslaunch apriltag_detection continuous_detection.launch 
+rviz
+rostopic echo /tag_detections
+
+
+//git clone https://gitee.com/bingda-robot/apriltag_detection.git
